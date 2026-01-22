@@ -14,17 +14,15 @@ export default function RoleSelect() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh", // Full viewport height
-        width: "100vw",  // Full viewport width
-        background: "linear-gradient(135deg, #0d1b2a, #1b263b)", // Navy gradient
+        height: "100vh",
+        background: "linear-gradient(135deg, #0d1b2a, #1b263b)", // navy gradient
         flexDirection: "column",
-        overflow: "hidden",
       }}
     >
       <h1
         style={{
           color: "#ffffff",
-          fontSize: "3rem",
+          fontSize: "2.5rem",
           marginBottom: "50px",
           fontWeight: "bold",
         }}
